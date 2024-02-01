@@ -1,0 +1,51 @@
+.app-container{
+    background-color: black;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    
+}
+
+.profile-container{
+    border: 5px solid;
+    background-color: #1F1F1F;
+    display: grid;
+   text-align: center;
+   padding: 1.5em;
+   border-radius: 10px;
+   
+}
+
+img{
+    border-radius: 100px;
+    width: 100px;
+    margin-inline: auto;
+    
+}
+
+.heading{
+    color: aliceblue;
+    margin-block: 10px 0;
+}
+
+.paragraph{
+    color: #A4BB55;
+    margin-block: 10px;
+}
+.discription{
+    color: aliceblue;
+    
+}
+
+.details{
+   border-radius: 10px;
+    background-color: #333333;
+    color: aliceblue;
+    font-size: 1rem;
+    padding: .5em;
+    border: none;
+    
+}
+.details:not(:last-child){
+    margin-bottom: 10px;
+}
